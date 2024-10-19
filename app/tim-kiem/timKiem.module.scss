@@ -1,0 +1,41 @@
+.TimKiem {
+
+    >.title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .KetQua {
+        margin-top: 20px;
+        padding: 10px;
+
+        .title {
+            font-weight: bold;
+            font-size: 18px;
+            color: #fff;
+        }
+
+        .listKetQua {
+            margin-top: 10px;
+
+            .ketQua {
+                margin-bottom: 20px;
+
+                .name {
+                    color: red;
+                }
+
+                .diaChi {
+                    color: #cecece;
+                }
+            }
+        }
+
+        .phanTrang {
+            background-color: #fff;
+            width: fit-content;
+        }
+    }
+}

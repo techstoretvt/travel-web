@@ -1,0 +1,47 @@
+.title {
+    color: #fff;
+}
+
+.HomePage {
+    background-image: url('/images/banner/anh-banner.jpg');
+    background-size: cover;
+    min-height: calc(100vh - 50px);
+
+    h2 {
+        text-align: center;
+        padding-top: 20px;
+        text-shadow: 1px 2px #000;
+    }
+
+    .types {
+        width: fit-content;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 30px;
+        padding: 10px;
+        gap: 15px 0;
+        flex-direction: column;
+
+        .type {
+            font-weight: bold;
+            padding: 10px;
+            height: 50px;
+            cursor: pointer;
+            border: 1px solid #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 2px;
+            background-color: rgb(0, 255, 170);
+            color: #000;
+
+            &:hover {
+                background-color: #333;
+                color: #fff;
+                border-color: #333;
+            }
+        }
+    }
+}

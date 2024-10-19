@@ -1,0 +1,36 @@
+.dichVu {
+    background-image: url('/images/banner/anh-banner2.jpg');
+    background-size: cover;
+    min-height: calc(100vh - 50px);
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .cities {
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px 10px;
+
+        .city {
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid green;
+            height: 50px;
+            background-color: green;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #333;
+                color: #fff;
+                border-color: #333;
+            }
+
+        }
+    }
+
+}

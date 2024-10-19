@@ -1,0 +1,51 @@
+.DiemDen {
+
+    .filters {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+        align-items: flex-end;
+
+        .filter {
+
+            .title {
+                font-weight: bold;
+                margin-bottom: 4px;
+                font-size: 13px;
+            }
+        }
+    }
+
+    .KetQua {
+        margin-top: 20px;
+        padding: 10px;
+
+        .title {
+            font-weight: bold;
+            font-size: 18px;
+            color: #fff;
+        }
+
+        .listKetQua {
+            margin-top: 10px;
+
+            .ketQua {
+                margin-bottom: 20px;
+
+                .name {
+                    color: red;
+                }
+
+                .diaChi {
+                    color: #cecece;
+                }
+            }
+        }
+
+        .phanTrang {
+            background-color: #fff;
+            width: fit-content;
+        }
+    }
+}
